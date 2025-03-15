@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfd84df7.css",
-    "main.js": "/static/js/main.ab6b7d2d.js",
-    "index.html": "/index.html",
-    "main.dfd84df7.css.map": "/static/css/main.dfd84df7.css.map",
-    "main.ab6b7d2d.js.map": "/static/js/main.ab6b7d2d.js.map"
+    "main.css": "/harunyuksel.net/static/css/main.dfd84df7.css",
+    "main.js": "/harunyuksel.net/static/js/main.ab6b7d2d.js",
+    "index.html": "/harunyuksel.net/index.html",
+    "main.dfd84df7.css.map": "/harunyuksel.net/static/css/main.dfd84df7.css.map",
+    "main.ab6b7d2d.js.map": "/harunyuksel.net/static/js/main.ab6b7d2d.js.map"
   },
   "entrypoints": [
     "static/css/main.dfd84df7.css",
