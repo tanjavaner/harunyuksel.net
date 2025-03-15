@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/harunyuksel.net/static/css/main.49114dae.css",
-    "main.js": "/harunyuksel.net/static/js/main.fca23e94.js",
+    "main.css": "/harunyuksel.net/static/css/main.b6901895.css",
+    "main.js": "/harunyuksel.net/static/js/main.f7d6378f.js",
     "index.html": "/harunyuksel.net/index.html",
-    "main.49114dae.css.map": "/harunyuksel.net/static/css/main.49114dae.css.map",
-    "main.fca23e94.js.map": "/harunyuksel.net/static/js/main.fca23e94.js.map"
+    "main.b6901895.css.map": "/harunyuksel.net/static/css/main.b6901895.css.map",
+    "main.f7d6378f.js.map": "/harunyuksel.net/static/js/main.f7d6378f.js.map"
   },
   "entrypoints": [
-    "static/css/main.49114dae.css",
-    "static/js/main.fca23e94.js"
+    "static/css/main.b6901895.css",
+    "static/js/main.f7d6378f.js"
   ]
 }
