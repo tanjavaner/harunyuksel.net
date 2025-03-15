@@ -1,4 +1,14 @@
 {
     "hello": "Merhaba",
-    "world": "Dünya"
+    "world": "Dünya",
+    "industrialEngineer": "Endüstri Mühendisi",
+    "softwareEngineer": "Yazılım Mühendisi",
+    "aboutMe": "Hakkımda",
+
+    "contact": "İletişim",
+    "fullName": "Ad Soyad",
+    "emailAdress": "E-posta Adresi",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "sendMessage": "Mesaj Gönder"
 }

@@ -4,12 +4,29 @@ import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import enMessages from "./locales/en.json";
 import trMessages from "./locales/tr.json";
 import Layout from "./layout/Layout";
+import { About } from "./pages/About";
+import { Contact } from "./pages/Contact";
+import { FaFileContract, FaHome, FaUser } from "react-icons/fa";
 
-export const pages = {
-  home: { path: "/home", element: <div>Home</div> },
-  about: { path: "/about", element: <div>About</div> },
-  contact: { path: "/contact", element: <div>Contact</div> }
+export const pages = [{
+  name: "home",
+  path: "/home",
+  icon: <FaHome className="text-2xl" />,
+  element: <div>Home</div>,
+},
+{
+  name: "about",
+  path: "/about",
+  icon: <FaUser className="text-2xl" />,
+  element: <About />
+},
+{
+  name: "contact",
+  path: "/contact",
+  icon: <FaFileContract className="text-2xl" />,
+  element: <Contact />
 }
+]
 
 function App() {
 
@@ -26,11 +43,11 @@ function App() {
       defaultLocale="tr"
     >
       <BrowserRouter>
-        <Layout>
+        <Layout pages = {pages}>
           <Routes>
-            <Route path={pages.home.path} element={pages.home.element} />
-            <Route path={pages.about.path} element={pages.about.element} />
-            <Route path={pages.contact.path} element={pages.contact.element} />
+            {pages.map((page) => (
+              <Route key={page.path} path={page.path} element={page.element} />
+            ))}
           </Routes>
         </Layout>
       </BrowserRouter>

@@ -1,4 +1,15 @@
 {
     "hello": "Hello",
-    "world": "World"
-}
+    "world": "World",
+    "industrialEngineer": "Industrial Engineer",
+    "softwareEngineer": "Software Engineer",
+    "aboutMe": "About Me",
+
+    "contact": "Contact",
+    "fullName": "Full Name",
+    "emailAdress": "Email Adress",
+    "subject": "Subject",
+    "message": "Message",
+    "sendMessage": "Send Message"
+
+}   
